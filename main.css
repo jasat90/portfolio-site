@@ -12,6 +12,11 @@ img, video, embed, object {
   max-width: 100%;
 }
 
+a {
+	color: #f8981c;
+	text-decoration: none;
+}
+
 .head {
 	padding-bottom: 15px;
 	border-bottom: 2px solid #bcbbbb;
@@ -20,6 +25,8 @@ img, video, embed, object {
 .logo {
 	float: left;
 	margin-top: 10px;
+	width: 64px;
+	height: 64px;
 }
 
 .name {
@@ -52,6 +59,12 @@ img, video, embed, object {
 	padding-right: 10px;
 }
 
+.list-no-padding {
+	float: left;
+	width: calc((100% - 20px)/3);
+	padding-right: 0px;
+}
+
 .featured-work {
 	font-size: 32px;
 	color: #bcbbbb;
@@ -78,6 +91,10 @@ ul {
 	margin-top: 0px;
 }
 
+.clear {
+	clear: both;
+}
+
 hr {
 	margin-top: 20px;
 }
@@ -85,6 +102,11 @@ hr {
 li {
 	display: inline;
 	padding-left: 10px;
+}
+
+.socmed-icon {
+	width: 24px;
+	height: 24px;
 }
 
 @media screen and (max-width: 850px) {
