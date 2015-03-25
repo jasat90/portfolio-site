@@ -60,8 +60,6 @@ a {
 }
 
 .list-no-padding {
-	float: left;
-	width: calc((100% - 20px)/3);
 	padding-right: 0px;
 }
 
